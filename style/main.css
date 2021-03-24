@@ -4,18 +4,51 @@ body {
     background-color: hsl(185, 75%, 39%);
 }
 
+.card-body {
+    padding: 0;
+}
+
+img {
+    margin: auto;
+    display: block;
+    border-radius: 50%;
+}
+
 .name {
+    margin-top: 20px;
     font-size: 18px;
-    /* font-family: 'Kumbh Sans', sans-serif; */
     font-weight: 700;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.city {
+    text-align: center;
+}
+
+
+ol.list {
+    padding: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+ul {
+    padding: 15px;
+    display: inline;
+    margin-right: 10px;
+    margin-bottom: 0;
 }
 
 .stats {
     font-size: 18px;
-    /* font-family: 'Kumbh Sans', sans-serif; */
     font-weight: 700;
 }
 
 .grey {
     color: hsl(0, 0%, 59%);
+}
+
+.small {
+    font-size: small;
 }
