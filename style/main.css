@@ -1,9 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
 }
 
 body {
@@ -79,8 +78,4 @@ ul {
 
 .grey {
     color: hsl(0, 0%, 59%);
-}
-
-.small {
-    font-size: small;
 }
