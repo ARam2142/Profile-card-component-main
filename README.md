@@ -27,7 +27,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- TBD
+- https://aram2142.github.io/profile-card/
 ### Built with
 
 - HTML
