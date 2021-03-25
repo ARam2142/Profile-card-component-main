@@ -5,18 +5,32 @@
     font-family: 'Kumbh Sans', sans-serif;
 }
 
+html {
+    height: 100%;
+}
+
 body {
-    height: 100px;
+    height: 100%;
     background-color: hsl(185, 75%, 39%);
     background-image: 
     url(../images/bg-pattern-top.svg),
     url(../images/bg-pattern-bottom.svg);
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
 div.card {
     border-style: none;
     border-radius: 20px;
     overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .card-header {
